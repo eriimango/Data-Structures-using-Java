@@ -1,4 +1,5 @@
 // This Program demonstrates a simple Insertion Sorting Structure
+// author: ericka h.
 import java.util.Arrays;
 
 class InsertionSort {
