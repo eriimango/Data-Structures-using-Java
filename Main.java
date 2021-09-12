@@ -15,18 +15,20 @@ class InsertionSort {
     }
   }
 
+// Program driver
   public static void main(String args[]) {
     int[] arr = { 8, 22, 5, 15, 18, 32, 3, 72 };
 
     InsertionSort sort = new InsertionSort();
     sort.insertionSort(arr);
+
     System.out.println("Unsorted Array: ");
     for (int i : arr) {
       System.out.print(i + " ");
     }
     System.out.println();
 
-    insertionSort(arr);
+    //insertionSort(arr);
 
     System.out.println("Sorted Array: ");
     for (int i : arr) {
