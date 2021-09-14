@@ -1,4 +1,4 @@
-// This Program demonstrates a simple Insertion Sorting Structure
+// This program demonstrates a simple Insertion Sort operation of the LinkedList Structure. It will output the unordered sort nodes and the sorted sort nodes.
 // author: ericka h.
 import java.util.Arrays;
 
@@ -9,11 +9,11 @@ class InsertionSort {
         for (int j = 1; j < n; j++) {
             int key = array[j];
             int i = j - 1;
-            while ((i > -1) && (array[i] > key)) { // descending order for smaller elements
+            while ((i > -1) && (array[i] > key)) { // swapping node from right for smaller node elements
                 array[i + 1] = array[i];
                 i--;
             }
-            array[i + 1] = key; // key after smallest element
+            array[i + 1] = key; // new key after smallest element
         }
     }
 
