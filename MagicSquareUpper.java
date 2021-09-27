@@ -2,7 +2,7 @@
 // upperbounds, and if the space is occupied the index will move down.
 // author: Ericka H. B
 
-class MagicSquare {
+class MagicSquareUpper {
     static void magic(int n) {
         int [][] magicSquare = new int[n][n];
 
