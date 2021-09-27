@@ -1,6 +1,6 @@
 // This program will implement a magic square odd integer intake. The matrix structure will move index
 // upperbounds, and if the space is occupied the index will move down.
-// author: Ericka Howard
+// author: Ericka H. B
 
 class MagicSquare {
     static void magic(int n) {
@@ -29,7 +29,7 @@ class MagicSquare {
                 i ++;
         }
 
-
+        // print magic square including upperbound results of pushing empty squares
         for (j = 0; j < n; j++) {
             for (i = 0; i < n; i++) {
                 System.out.print(magicSquare[j][i] + " ");
@@ -37,6 +37,8 @@ class MagicSquare {
             System.out.println();
         }
     }
+    
+    // test driver to test an odd number
 
     public static void main(String[] args) {
         int n = 5;
