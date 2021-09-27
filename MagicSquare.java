@@ -46,10 +46,8 @@ class MagicSquare {
     System.out.println("Enter a number: ");
 
     int magicNum = myNum.nextLine();  // Read user input
-    System.out.println("N (mais: " + magicNum);  // Output user input
-    System.out.println("Sum of each row or column "
-                           + n * (n * n + 1) / 2 + ":");
-        int n = 5;
-        magic(n);
+    System.out.println("Magic Square for : " + magicNum);  // Output square number
+    System.out.println("Sum of each row or column " + n * (n * n + 1) / 2 + ":"); // displays the constant sum
+    magic(n);
     }
 }
