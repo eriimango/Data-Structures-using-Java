@@ -14,7 +14,6 @@ class MagicSquare {
         for (int x = 1; x <= n * n; x++) {
             magicSquare[j][i] = x;
 
-
             // if space is occupied move down
             if (x % n == 0)
                 j++;
@@ -38,7 +37,7 @@ class MagicSquare {
         }
     }
 
-    // user integer prompt and program driver
+    // user integer prompt, program driver, and display
 
     public static void main(String[] args) {
 
@@ -51,6 +50,10 @@ class MagicSquare {
 
         System.out.println("Magic Square for : " + n);  // Output square number
         System.out.println("Sum of each row or column " + n * (n * n + 1) / 2 + ":"); // displays the constant sum
+        System.out.println(" "); //blank line
+        System.out.println("Magic Square of "+ n);
+        System.out.println("..................");
         magic(n);
     }
+
 }
